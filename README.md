@@ -44,18 +44,20 @@ A premium, full-stack portfolio management application designed for scalability,
 
 ## 🚀 Getting Started
 
-### Prerequisites
-- **Node.js** (v18 or higher)
-- **MongoDB Atlas** account (or local MongoDB)
-
-### Quick One-Command Run
-From the root directory, simply run:
+### 1. Installation
+First, install the dependencies for the root, backend, and frontend:
 ```bash
-npm install && npm run dev
-```
-*This will automatically install dependencies and start both Frontend and Backend concurrently.*
+# Install root dependencies (concurrently)
+npm install
 
-### Environment Variables (.env)
+# Install backend dependencies
+cd backend && npm install
+
+# Install frontend dependencies
+cd ../frontend && npm install
+```
+
+### 2. Environment Setup
 Create a `.env` file in the `backend/` folder:
 ```env
 PORT=5000
@@ -63,6 +65,24 @@ MONGODB_URI=your_atlas_connection_string
 JWT_SECRET=your_super_secret_key
 JWT_EXPIRE=30d
 NODE_ENV=development
+```
+
+### 3. Run Commands
+
+#### 🔥 Recommended: Run Everything (Backend + Frontend)
+From the root directory:
+```bash
+npm run dev
+```
+
+#### 🛡️ Run Backend Only
+```bash
+npm run backend
+```
+
+#### ⚛️ Run Frontend Only
+```bash
+npm run frontend
 ```
 
 ---
