@@ -1,19 +1,23 @@
-const UserReal = require('./User');
-const PortfolioReal = require('./Portfolio');
-const Mock = require('../mockDb');
+const UserReal        = require('./User');
+const PortfolioReal   = require('./Portfolio');
+const WatchlistReal   = require('./Watchlist');
+const TransactionReal = require('./Transaction');
+const Mock            = require('../mockDb');
 
 const getModels = () => {
-    // If DB_MODE is mock, return the mock implementation
     if (process.env.DB_MODE === 'mock') {
         return {
-            User: Mock.User,
-            Portfolio: Mock.Portfolio
+            User:        Mock.User,
+            Portfolio:   Mock.Portfolio,
+            Watchlist:   Mock.Watchlist,
+            Transaction: Mock.Transaction
         };
     }
-    // Otherwise return real Mongoose models
     return {
-        User: UserReal,
-        Portfolio: PortfolioReal
+        User:        UserReal,
+        Portfolio:   PortfolioReal,
+        Watchlist:   WatchlistReal,
+        Transaction: TransactionReal
     };
 };
 

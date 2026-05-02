@@ -98,6 +98,9 @@ npm run frontend
 | `PUT` | `/api/v1/auth/updatepassword` | Update Password | ✅ |
 | `GET` | `/api/v1/portfolio` | Get all assets | ✅ |
 | `POST` | `/api/v1/portfolio` | Add new asset | ✅ |
+| `PUT` | `/api/v1/portfolio/:id` | Update asset | ✅ |
+| `DELETE` | `/api/v1/portfolio/:id` | Delete asset | ✅ |
+| `GET` | `/api/v1/portfolio/stats` | Portfolio analytics (P&L, best/worst) | ✅ |
 
 ---
 

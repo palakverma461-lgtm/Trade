@@ -24,6 +24,16 @@ const PortfolioSchema = new mongoose.Schema({
         required: [true, 'Please add a buy price'],
         min: [0, 'Price cannot be negative']
     },
+    currentPrice: {
+        type: Number,
+        min: [0, 'Price cannot be negative'],
+        default: null
+    },
+    notes: {
+        type: String,
+        maxlength: [200, 'Notes cannot exceed 200 characters'],
+        default: ''
+    },
     user: {
         type: mongoose.Schema.ObjectId,
         ref: 'User',
