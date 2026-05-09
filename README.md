@@ -6,7 +6,7 @@ A premium, full-stack portfolio management application designed for scalability,
 
 ## 👨‍💻 Developed By
 **Palak Verma**  
-*Backend Developer Intern Candidate*  
+*Backend Developer *  
 [LinkedIn](https://linkedin.com/in/aman-v-697771345) | [GitHub](https://github.com/Amanvarma2231) | 📞 **+91 9795529326**
 
 ---
