@@ -5,9 +5,9 @@ A premium, full-stack portfolio management application designed for scalability,
 ---
 
 ## 👨‍💻 Developed By
-**Aman Varma**  
+**Palak Verma**  
 *Backend Developer Intern Candidate*  
-[LinkedIn](https://linkedin.com/in/aman-v-697771345) | [GitHub](https://github.com/Amanvarma2231) | 📞 **+91 6306572504**
+[LinkedIn](https://linkedin.com/in/aman-v-697771345) | [GitHub](https://github.com/Amanvarma2231) | 📞 **+91 9795529326**
 
 ---
 
@@ -45,21 +45,16 @@ A premium, full-stack portfolio management application designed for scalability,
 ## 🚀 Getting Started
 
 ### 1. Installation
-First, install the dependencies for the root, backend, and frontend:
-```bash
-# Install root dependencies (concurrently)
+Install dependencies for root, backend, and frontend:
+```
 npm install
-
-# Install backend dependencies
 cd backend && npm install
-
-# Install frontend dependencies
 cd ../frontend && npm install
 ```
 
 ### 2. Environment Setup
 Create a `.env` file in the `backend/` folder:
-```env
+```
 PORT=5000
 MONGODB_URI=your_atlas_connection_string
 JWT_SECRET=your_super_secret_key
@@ -71,17 +66,17 @@ NODE_ENV=development
 
 #### 🔥 Recommended: Run Everything (Backend + Frontend)
 From the root directory:
-```bash
+```
 npm run dev
 ```
 
 #### 🛡️ Run Backend Only
-```bash
+```
 npm run backend
 ```
 
 #### ⚛️ Run Frontend Only
-```bash
+```
 npm run frontend
 ```
 
@@ -118,6 +113,3 @@ npm run frontend
 
 ---
 *Created with ❤️ for the Primetrade.ai Backend Developer Internship Challenge.*
-# PrimeTrade
-# PrimeTrade
-# PrimeTrade
